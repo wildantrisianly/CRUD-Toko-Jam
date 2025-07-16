@@ -54,34 +54,34 @@ pip install tabulate
   This structure allows efficient lookup, modification, and management of records.
 
 3. Functional Flow Options
-  a. View Watch List
+  - View Watch List
     Displays all watches in a table format using the tabulate library.
     Useful for both admins and customers to see available products.
-  b. Add New Watch (Admin)
+  - Add New Watch (Admin)
     Admin inputs a new watch’s details.
     System validates the input.
     The watch is appended to the inventory list.
-  c. Update Watch Data (Admin)
+ - Update Watch Data (Admin)
     Admin selects a watch by its code.
     The system displays current data.
     Admin provides new values for selected fields.
     The dictionary in the list is updated accordingly.
-  d. Delete Watch (Admin)
+  - Delete Watch (Admin)
     Admin selects a watch to delete.
     The system confirms deletion.
     The dictionary is removed from the list.
-  e. Purchase Watch (Customer)
+  - Purchase Watch (Customer)
     Customer selects a watch and inputs desired quantity.
     System checks availability.
     If valid, stock is reduced and total cost is calculated.
     System generates a purchase receipt and displays transaction details.
-  f. Search Watch
+  - Search Watch
     Allows searching by name or category.
     Matches are filtered and displayed to the user.
-  g. Print Receipt
+ - Print Receipt
     Displays transaction summary (watch name, quantity, total price).
     Helps simulate real transaction flow.
-  h. Exit
+   - Exit
 
     Ends the program session.
 
